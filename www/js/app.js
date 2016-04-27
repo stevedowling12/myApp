@@ -62,7 +62,7 @@ angular.module('starter', ['ionic', 'starter.controllers', 'starter.services'])
 .state('tab.friends', {
       url: '/chats',
       views: {
-        'tab-chats': {
+        'tab-friends': {
           templateUrl: 'templates/tab-friends.html',
           controller: 'FriendsCtrl'
         }
